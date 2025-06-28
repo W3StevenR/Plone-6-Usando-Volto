@@ -1,11 +1,11 @@
-# experimental 🚀
+# Experimental 🚀
 
 [![Built with Cookieplone](https://img.shields.io/badge/built%20with-Cookieplone-0083be.svg?logo=cookiecutter)](https://github.com/plone/cookieplone-templates/)
 [![Black code style](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![Backend Tests](https://github.com/collective/experimental/actions/workflows/backend.yml/badge.svg)](https://github.com/collective/experimental/actions/workflows/backend.yml)
 [![Frontend Tests](https://github.com/collective/experimental/actions/workflows/frontend.yml/badge.svg)](https://github.com/collective/experimental/actions/workflows/frontend.yml)
 
-A new project using Plone 6.
+Experimento para usar temas diferentes para sites diferentes instanciados no back-end usando a mesma instancia Front-End Volto   
 
 ## Quick Start 🏁
 
