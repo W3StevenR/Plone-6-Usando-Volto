@@ -1,0 +1,37 @@
+[repository]
+name = "experimental"
+managed_by_uv = false
+changelog = "CHANGELOG.md"
+version = "version.txt"
+compose = "docker-compose.yml"
+
+[repository.towncrier]
+section = "Project"
+settings = "towncrier.toml"
+
+[backend]
+path = "backend"
+
+[backend.package]
+name = "experimental"
+path = "backend"
+changelog = "backend/CHANGELOG.md"
+towncrier_settings = "backend/pyproject.toml"
+base_package = "Products.CMFPlone"
+publish = false
+
+[frontend]
+path = "frontend"
+
+[frontend.package]
+name = "volto-experimental"
+path = "frontend/packages/volto-experimental"
+changelog = "frontend/packages/volto-experimental/CHANGELOG.md"
+towncrier_settings = "frontend/packages/volto-experimental/towncrier.toml"
+base_package = "@plone/volto"
+publish = false
+
+[cookieplone]
+template = "project"
+template_version = "c7497ace6a6d52fd75e67047f652a801b03c12c4"
+generated_date = "2025-06-26 16:33:52"
